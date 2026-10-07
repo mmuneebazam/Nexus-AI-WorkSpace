@@ -1,0 +1,18 @@
+{
+  "name": "nexus-ai-workspace",
+  "version": "1.0.0",
+  "description": "Full-stack AI workspace demo — Express REST API, streaming AI chat (SSE), project CRUD dashboard, and interactive API docs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["full-stack", "express", "ai", "llm", "sse", "streaming", "rest-api", "demo"],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
